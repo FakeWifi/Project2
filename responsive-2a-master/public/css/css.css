@@ -1,0 +1,143 @@
+.n, .number, .dot{
+    font-family: Pesaro;
+}
+.number{
+    opacity: 1;
+}
+.caption{
+    font-family: "JaneAusten NoSecret";
+    color: darkgrey;
+    position: absolute;
+    left:330px;
+    top:670px;
+    transform: rotate(270deg);
+}
+.title{
+    font-family: "Pesaro";
+    font-size: 100px;
+    position: absolute;
+
+    left:255px;
+    top:118px;
+}
+.name{
+    text-align: center;
+    font-family: "Aspira DEMO";
+    width:225px;
+    position:absolute;
+    top:200px;
+    left:20px;
+}
+.volume{
+    font-family:"Pesaro";
+    transform: rotate(270deg);
+    position:absolute;
+    left:-125px;
+    top:500px;
+    font-size: 100px;
+    color:darkgrey;
+z-index:2;
+}
+.image{
+    z-index:1;
+    position: absolute;
+    top:300px;
+    left:100px;
+}
+.n{
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    font-size: 50px;
+    text-underline-style: dotted;
+    color:darkgrey;
+    position:absolute;
+    top:800px;
+    left:48px;
+}
+.number{
+    z-index: 3;
+    font-size: 50px;
+    color: darkgrey;
+    position: absolute;
+    top:800px;
+    left:83px;
+}
+.date{
+    font-family: "Aspira DEMO";
+    text-align:center;
+    width:600px;
+    position: absolute;
+    top:1000px;
+}
+.dot{
+    color:darkgrey;
+    font-size: 50px;
+    position: absolute;
+    top:800px;
+    left:80px;
+}
+.name-2{
+    text-align: center;
+    font-family: "Aspira DEMO";
+width:225px;
+    position: absolute;
+    top:240px;
+    left:20px;
+}
+.two{
+    opacity: 0;
+}
+@media only screen and (max-width: 600px){
+.title{
+
+    font-size:50px;
+    position:absolute;
+    left:69px;
+}
+    .name,.name-2{
+        width:320px;
+        left:0px;
+
+    }
+
+    .caption{
+        opacity: 0;
+        left:0px;
+    }
+    .volume{
+        transform: rotate(0deg);
+        font-size: 20px;
+        top:280px;
+        left:180px;
+    }
+    .n{
+        font-size:20px;
+        top:280px;
+        left: 270px;
+    }
+    .dot{
+
+        font-size: 20px;
+        top:280px;
+        left:265px;
+        z-index: 2;
+    }
+    .number{
+        opacity: 0;
+    }
+    .two{
+        opacity:1;
+        font-size: 20px;
+        position: absolute;
+        top: 280px;
+        left:290px;
+        color:darkgrey;
+    }
+    .image{
+        position: absolute;
+        left:-50px;
+    }
+    .date{
+        width:320px;
+    }
+}
